@@ -180,6 +180,9 @@ textarea {
   font-size: 30px;
   cursor: pointer;
 }
+.window-popup input, .window-popup textarea{
+  border-radius: 0;
+}
 
 .window-popup__head {
   display: flex;
