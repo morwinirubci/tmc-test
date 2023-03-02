@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMC</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/slick.css">
+</head>
+
+<body>
+    <div class="window">
+        <div class="window-popup">
+            <div class="window-popup__close"><span>x</span></div>
+            <div class="window-popup__head">
+                <p class="window-popup__text">Заполните форму или выберите удобный способ связи:</p>
+                <div class="window-popup__social">
+                    <a class="window-popup__tel" href="tel:+79999999999">+7 (123) 456-78-90</a>
+                    <a class="window-popup__wa" href="#!" target="_blank">WhatsApp</a>
+                    <a class="window-popup__tg" href="#!" target="_blank">Telegram</a>
+                </div>
+            </div>
+            <p class="window-popup__title">Обсудить задачу</p>
+            <form class="window-popup__form" name="feedback-form" method="post">
+                <div class="window-popup__form-items">
+                    <input name="feedback-name" type="text" id="form_name" placeholder="Ваше имя*">
+                    <input type="tel" name="feedback-tel" id="form_tel" placeholder="Телефон*">
+                </div>
+                <textarea placeholder="Подробнее о проекте" class="window-popup__comment" name="feedback-textarea"
+                    id="form_comm"></textarea>
+                <div class="window-popup__form-footer">
+                    <div class="window-popup__attach-file">
+                        <label class="window-popup__form_file">
+                            <input type="file" name="feedback-file" id="form_file" class="window-popup__file">
+                            <span class="window-popup__file-btn">Приложить файлы </span>
+                            <span class="window-popup__file-text">Файл не выбран </span>
+                        </label>
+                    </div>
+                    <div class="window-popup__policy">
+                        <input class="window-popup__check" type="checkbox" name="feedback-check" id="form_check">
+                        <label for="form_check"></label>
+                        <p class="window-popup__policy-text">Я соглашаюсь на обработку персональных данных в
+                            соответствии с
+                            политикой конфиденциальности.
+                        </p>
+                    </div>
+                </div>
+                <button class="btn form-btn">Получить предложение</button>
+
+                <p class="window-popup__bottom-text">Оперативно отвечаем в рабочее время: с 9:00 до 18:00.</p>
+            </form>
+        </div>
+    </div>
+
+
+    <section class="header-section">
+        <div class="container header-container">
+            <header class="header">
+                <div class="header__logo">
+                    <a href="/">
+                        <img src="./img/logo.png" alt="logo">
+                        <p class="header__logo-text">тулмашсервис</p>
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <a class="header__item tel" href="tel:+79999999999">+7 (999) 999-99-99</a>
+                    <div class="menu-burger__header">
+                        <span></span>
+                    </div>
+                    <ul class="header__list">
+                        <li class="header__list-item header__list-item--active">
+                            <a href="#!">услуги</a>
+                            <ul class="header__submenu">
+                                <li class="header__submenu-item"><a href="#!">Комплексное снабжение</a></li>
+                                <li class="header__submenu-item"><a href="#!">Комплектация малоценкой</a></li>
+                                <li class="header__submenu-item"><a href="#!">Аутсорсинг снабжения</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#!">отправить заявку</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#!">о компании</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#!">контакты</a>
+                        </li>
+                        <li class="header__list-item search">
+                            <a href="#!">
+                                <img src="./img/icon/tmc-loop-icon.png" alt="loop icon">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </section>
+    <section class="banner-section">
+        <div class="banner-slider">
+            <div class="banner-slider__item banner-slider__item-first-slide">
+                <div class="container">
+                    <div class="banner">
+                        <h1 class="banner__title">Ваш поставщик материалов для электромонтажа</h1>
+                        <p class="banner__subtitle">Точно в срок!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-slider__item banner-slider__item-second-slide">
+                <div class="container">
+                    <div class="banner">
+                        <h1 class="banner__title">Ваш постановщик компонентов для вентиляции и кондиционирования</h1>
+                        <p class="banner__subtitle">Точно в срок!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-slider__item banner-slider__item-third-slide">
+                <div class="container">
+                    <div class="banner">
+                        <h1 class="banner__title">Вам поставщик строительного оборудования</h1>
+                        <p class="banner__subtitle">Точно в срок!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-slider__item banner-slider__item-fourth-slide">
+                <div class="container">
+                    <div class="banner">
+                        <h1 class="banner__title">Ваш поставщик строительных материалов</h1>
+                        <p class="banner__subtitle">Точно в срок!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-slider__item banner-slider__item-five-slide">
+                <div class="container">
+                    <div class="banner">
+                        <h1 class="banner__title">Ваш поставщик строительных инструментов</h1>
+                        <p class="banner__subtitle">Точно в срок!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-slider__item banner-slider__item-second-slide">
+                <div class="container">
+                    <div class="banner">
+                        <h1 class="banner__title">Ваш постановщик компонентов для вентиляции и кондиционирования</h1>
+                        <p class="banner__subtitle">Точно в срок!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container banner__bottom-text">
+            <div class="banner__description">
+                <p>Серьёзный опыт продаж стройматериалов. Снабжение строительных объектов с доставкой в день
+                    заказа.
+                    Сборка сотен позиций в одну поставку. Комплектация площадок строительства расходниками,
+                    малоценкой и отделочными материалами. Разбираемся в том, что продаём.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-help">
+        <div class="container ">
+            <div class="container-help">
+                <div class="help__head">
+                    <p class="help__title title">Мы помогаем</p>
+                    <p class="help__subtitle">Занимаясь комплексным снабжением мы помогаем сократить логистические
+                        процедуры.
+                        Исключить случайно упущенные позиции. Забыть про сотни звонков от перевозчиков и скопление
+                        автотранспорта на Объектах строительства. А также, избежать неравнозначных сроков поставки
+                        обоюдно
+                        необходимых материалов, что исключит остановку работ на площадке.</p>
+                </div>
+                <div class="help__advantages">
+                    <div class="help__advantages-item">
+                        <img class="help__advantages-icon" src="./img/icon/tmc-icon-01.png" alt="Icon 1">
+                        <p class="help__advantages-text">сократить логистические процедуры</p>
+                    </div>
+                    <div class="help__advantages-item">
+                        <img class="help__advantages-icon" src="./img/icon/tmc-icon-02.png" alt="Icon 2">
+                        <p class="help__advantages-text">Исключить упущенные позиции</p>
+                    </div>
+                    <div class="help__advantages-item">
+                        <img class="help__advantages-icon" src="./img/icon/tmc-icon-03.png" alt="Icon 3">
+                        <p class="help__advantages-text">определить точное время доставки</p>
+                    </div>
+                    <div class="help__advantages-item">
+                        <img class="help__advantages-icon" src="./img/icon/tmc-icon-04.png" alt="Icon 4">
+                        <p class="help__advantages-text">соблюдать очередность доставок</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="working-section">
+        <div class="container">
+            <div class="working">
+                <p class="working__title title">Работая с Нами Вы Получите</p>
+                <div class="working__items">
+                    <div class="working__item working__item-first">
+                        <div class="working__item-text">
+                            <p class="working__item-title">Надёжного партнёра</p>
+                            <p class="working__item-subtitle">Что может быть лучше, когда ты уверен в своём
+                                поставщике?
+                                Компаний комплектующих строительные объекты сотни, а понимающих Вас без лишних слов
+                                -
+                                единицы. Нарабатываем наш опыт взаимодействия при комплексном снабжении
+                                стройплощадок и
+                                знаем - что мы зависим друг от друга. Мы не пользуемся этой зависимостью, а
+                                выстраиваем
+                                долгосрочные отношения со своими партнёрами.</p>
+                        </div>
+                        <img src="./img/tmc-image-03.png" alt="Работая с нами 1">
+                    </div>
+                    <div class="working__item working__item-second">
+                        <div class="working__item-text">
+                            <p class="working__item-title">Профессионализм</p>
+                            <p class="working__item-subtitle">
+                                Нам не лень, мы не забываем и не уходим от проблем. Мы чётко слушаем, понимаем и
+                                делаем.
+                                С нами ваш отдел снабжения не будет испытывать негативные эмоции, которые обычно
+                                сопровождают поставки стройматериалов - разочарование, негодование, злость, аппатия
+                                и
+                                чувство безисходности. Запоминаем как Вам удобнее и не наступаем на "одни и те же
+                                грабли" дважды. Комплексные поставки строительных материалов и расходников - это то,
+                                что
+                                мы умеем.</p>
+                        </div>
+                        <img src="./img/tmc-image-04.png" alt="Работая с нами 2">
+                    </div>
+                    <div class="working__item working__item-third">
+                        <div class="working__item-text">
+                            <p class="working__item-title">Темпы строительства</p>
+                            <p class="working__item-subtitle">
+                                Нам не лень, мы не забываем и не уходим от проблем. Мы чётко слушаем, понимаем и
+                                делаем.
+                                С нами ваш отдел снабжения не будет испытывать негативные эмоции, которые обычно
+                                сопровождают поставки стройматериалов - разочарование, негодование, злость, аппатия
+                                и
+                                чувство безисходности. Запоминаем как Вам удобнее и не наступаем на "одни и те же
+                                грабли" дважды. Комплексные поставки строительных материалов и расходников - это то,
+                                что
+                                мы умеем.</p>
+                        </div>
+                        <img src="./img/tmc-image-05.png" alt="Работая с нами 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="equip-section">
+        <div class="container">
+            <p class="equip-title title">оснащение стройплощадки</p>
+            <div class="equip__items">
+                <div class="equip__item">
+                    <div class="equip__img">
+                        <img src="./img/icon/tmc-equip-icon-01.png" alt="equip icon 1">
+                    </div>
+                    <p class="equip__item-title">снабжение монолитных работ</p>
+                </div>
+                <div class="equip__item">
+                    <div class="equip__img">
+                        <img src="./img/icon/tmc-equip-icon-02.png" alt="equip icon 2">
+                    </div>
+                    <p class="equip__item-title">комплектация кладочных работ</p>
+                </div>
+                <div class="equip__item">
+                    <div class="equip__img">
+                        <img src="./img/icon/tmc-equip-icon-03.png" alt="equip icon 3">
+                    </div>
+                    <p class="equip__item-title">материалы для отделочных работ</p>
+                </div>
+                <div class="equip__item">
+                    <div class="equip__img">
+                        <img src="./img/icon/tmc-equip-icon-04.png" alt="equip icon 4">
+                    </div>
+                    <p class="equip__item-title">снабжение фасадных работ</p>
+                </div>
+                <div class="equip__item">
+                    <div class="equip__img">
+                        <img src="./img/icon/tmc-equip-icon-05.png" alt="equip icon 5">
+                    </div>
+                    <p class="equip__item-title">всё для кровельных работ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="btn__block">
+        <button class="btn popup">Обратная связь</button>
+    </div>
+
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/slick.min.js"></script>
+
+</body>
+
+</html>
